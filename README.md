@@ -15,12 +15,12 @@ pip install -r requirements.txt
 ## Training
 Please download the [data](https://drive.google.com/file/d/1OsiBs2udl32-1CqTXCitmov4NQCYdA9g/view?usp=drive_link) to the ```data/``` folder in your repository.
 
-To train the model using only the "coarse" model, run:
+To train the model using only the **coarse** model, run:
 ```
 python run_nerf.py --config configs/lego_coarse.txt
 ```
 
-To train the model using both "coarse" and "fine" model, run:
+To train the model using both **coarse** and **fine** model, run:
 ```
 python run_nerf.py --config configs/lego_fine.txt
 ```
